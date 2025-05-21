@@ -67,9 +67,8 @@ export default function Home() {
         </div>
 
         <a
-          ref={ctaRef}
           href="https://linkoraa.tech"
-          className="px-8 py-3 text-lg font-semibold rounded-full bg-gradient-to-r from-blue-600 to-purple-600 shadow-lg hover:scale-105 transform transition"
+          className="px-8 py-3 text-lg z-50 font-semibold rounded-full bg-gradient-to-r from-blue-600 to-purple-600 shadow-lg hover:scale-105 transform transition"
         >
           Explore Product
         </a>
